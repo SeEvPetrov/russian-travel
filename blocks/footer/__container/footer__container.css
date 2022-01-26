@@ -1,0 +1,21 @@
+.footer__container {
+  max-width: 1184px;
+  margin: 92px auto 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .footer__container {
+    max-width: calc((100vw - 768px) / (1024 - 768) * (928 - 720) + 720px);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__container {
+    max-width: calc((100vw - 320px) / (768 - 320) * (720 - 186) + 186px);
+    margin-top: calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px);
+    margin-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
+  }
+}

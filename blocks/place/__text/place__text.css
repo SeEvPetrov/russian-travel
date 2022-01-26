@@ -1,0 +1,6 @@
+@media (max-width: 685px) {
+  .place__text {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
