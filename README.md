@@ -1,7 +1,5 @@
 # Проектная работа №3: "Путешествия по России".
-
-https://seevpetrov.github.io/russian-travel/
-
+Ссылка на мой проект [Путешествия по России](https://seevpetrov.github.io/russian-travel/)
 ---
 
 ## Задача проекта
