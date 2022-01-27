@@ -16,7 +16,13 @@
   }
 }
 
-@media (max-width: 748px) {
+@media (max-width: 768px) {
+  .intro__container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 425px) {
   .intro__container {
     max-width: 90%;
     padding-bottom: 64px;
