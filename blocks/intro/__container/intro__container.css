@@ -18,7 +18,8 @@
 
 @media (max-width: 768px) {
   .intro__container {
-    max-width: 720px;
+    max-width: calc(100% - 24px * 2);
+    margin: auto;
   }
 }
 
@@ -26,6 +27,5 @@
   .intro__container {
     max-width: 90%;
     padding-bottom: 64px;
-    margin: 0 auto;
   }
 }

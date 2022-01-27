@@ -12,14 +12,6 @@
   }
 }
 
-/* @media (max-width: 768px) {
-  .footer__container {
-    max-width: calc((100vw - 320px) / (768 - 320) * (720 - 186) + 186px);
-    margin-top: calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px);
-    margin-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
-  }
-} */
-
 @media (max-width: 767px) {
   .footer__container {
     max-width: 186px;
