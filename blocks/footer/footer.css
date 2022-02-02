@@ -1,21 +1,23 @@
-.footer__container {
-  max-width: 1184px;
-  margin: 92px auto 24px;
+.footer {
+  max-width: calc(100% - 48px * 2);
+  padding: 92px 0 24px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
-  .footer__container {
+  .footer {
     max-width: calc((100vw - 768px) / (1024 - 768) * (928 - 720) + 720px);
   }
 }
 
 @media (max-width: 767px) {
-  .footer__container {
+  .footer {
     max-width: 186px;
-    margin-top: 64px;
+    padding-top: 64px;
     margin-left: 16px;
     flex-direction: column;
   }
